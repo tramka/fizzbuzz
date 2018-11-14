@@ -1,4 +1,3 @@
-# existuje modul flake8 na otestovanie suborov?
 def fizzbuzz(n):
     if not isinstance(n, int):
         raise TypeError()
