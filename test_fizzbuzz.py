@@ -40,8 +40,3 @@ def test_cannot_fizzbuzz_anything():
 def test_cannot_fizzbuzz_float():
     with pytest.raises(TypeError):
         fizzbuzz(5.5)
-
-# regresne testy
-#@pytest.mark.xfail()
-def test_xxx():
-    assert True #False
